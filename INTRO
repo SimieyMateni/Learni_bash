@@ -1,0 +1,29 @@
+What is bash? Bash is a shell. A place in a computer where we can enter text and the commands are interpreted by a shell and we are able to see the outputs of our commands. Shell is case sensitive. We can manage an entire server via the shell. With different script we can autmate our commands and make it easy to use. To find out which shell i am using i must simply type echo $SHELL. 
+
+We can create different text file. WE can enter different commands on our shell and then to make sure that the text file turns to a script we must enter. Wait first we have to create a file and then after creating that file we have to turn it into an executable script by simply typing the command chmod u+x then name_of_file_here.
+
+To run the script type ./name_of_script_here .
+
+Very important critical thing is the first line of our code it must always be 
+#!/bin/bash
+
+A pound or Hash (#) that symbol is used to enter a comment.
+Lemme go wrIte a Hello World script.
+
+Class 3: Variables 
+myname="Simiey" 
+I can create a variable directly on a shell and set it equal to something.
+Once variable is created i can echo what is inside the variable by typing echo and variable name.
+
+echo $myname 
+Typed above will give me an output of Simiey a dollar sign is important it helps bash know that the variable contains something.
+
+But why a dollar sign?
+Ohk let's say i do this: ls="Hello Simiey" 
+when i type the ls command on my shell the ls command will execute and list for me files. But if i put the dollar sign like this : echo $ls it will then print Hello simiey .
+
+Warning the variables are tied to a session if i exit the shell they also exit.
+We can prevent this by entering the variables in a script.
+Lemme go create a script....
+
+

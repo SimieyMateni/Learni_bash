@@ -1,0 +1,6 @@
+#!/bin/bash
+myname="Simiey"
+myage="Old enough"
+mission="I love coding"
+
+echo "Hello my name is $myname. and i am $myage i and $mission."
