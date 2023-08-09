@@ -1,0 +1,7 @@
+#!/bin/bash
+mynum=20
+if [ $mynum -eq 200 ]
+then echo "The condition is TRUE
+fi
+
+

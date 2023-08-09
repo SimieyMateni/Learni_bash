@@ -26,4 +26,23 @@ Warning the variables are tied to a session if i exit the shell they also exit.
 We can prevent this by entering the variables in a script.
 Lemme go create a script....
 
+Ohk so variables help save some time .
+We can capture the outpput of a command to a variable
 
+
+Class 4: Math functions
+To add numbers in bash is different from the typical python way of adding numbers.
+
+expr 30 + 10 
+Above code will work. It evaluates the experations
+expr 100\*4
+
+Class 5: if statements 
+
+The whole idea behind scripting is automating something
+
+mynum=20
+if [ $mynum -eq 200 ]
+then echo "The condition is TRUE
+fi
+.
